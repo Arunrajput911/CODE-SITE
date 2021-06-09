@@ -1,0 +1,61 @@
+@import "~bootstrap/scss/bootstrap";
+// @import "~aos/src/sass/aos.scss";
+@import url("perfect-scrollbar/css/perfect-scrollbar.css");
+
+@import "../About/about.scss";
+@import "../Executives/executives.scss";
+@import "../Values/values.scss";
+// merged css files -- start
+@import "../Founder/founder";
+// @import "../Newsletter/newsletter";
+@import "../Social/social";
+// @import "../Testimonials/testimonials";
+@import "../Contact/contact.scss";
+@import "../../styles/events";
+// @import "../../styles/home";
+@import "../../styles/projects";
+// merged css files -- end
+@import "../EventCard/eventCard.scss";
+@import "./theme.scss";
+@import "../Dashboard_Profile/paper-dashboard.scss";
+@import "../Resume/resumeTemplate2.scss";
+//merged css files -- start
+@import "../Navbar/nav.scss";
+@import "../Footer/footer.scss";
+//merged css files --end
+@import "../Authentication/register.scss";
+@import "../CertificateVerification/certificateVerification.scss";
+@import "../Dashboard_Profile/demo.scss";
+@import "../Dashboard_Profile/dashboardSidebar.scss";
+@import "../Dashboard_Profile/dashboard.scss";
+@import "../Loader/loader.scss";
+@import "../Navbar/Navbar.scss";
+@import "../Resume/resume.scss";
+@import "../Resume/resumeTemplate1.scss";
+@import "../Resume/resumeTemplate3";
+@import "../Toaster/toaster.scss";
+@import "../Dashboard_Articles/articles.scss";
+@import "../Dashboard_Competitions/competitions.scss";
+@import "../Dashboard_Projects/projects.scss";
+@import "../Home/Home.scss";
+@import "../Home/blogCardStyle.scss";
+@import "../Contact/contact.scss";
+@import "../Slider/slider.scss";
+@import "../WorkWithUs/workWithUs.scss";
+@import "../../styles/feedback.scss";
+@import "../../styles/BietGems.scss";
+@import "../BietGems/card.scss";
+@import "../BietGems/filterForm.scss";
+@import "../BietGems/hero.scss";
+@import "../BietGems/Pagination.scss"; 
+@import "../EventDetails/event_details.scss";
+@import "../BlogsIndividual/card.scss";
+@import "../BlogsIndividual/comment.scss";
+@import "../BlogsIndividual/main.scss";
+@import "../UserProfile/content.scss";
+@import "../UserProfile/header.scss";
+@import "../Blogs/hero.scss";
+@import "../Blogs/card.scss";
+@import "../OurTeam/header.scss";
+@import "../OurTeam/member.scss";
+@import "../../styles/ourTeam.scss";

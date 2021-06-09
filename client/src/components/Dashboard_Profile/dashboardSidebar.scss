@@ -1,0 +1,36 @@
+.btn-default {
+  border-radius: 40px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-default:hover {
+  color: #fff;
+  background: rgba(58, 133, 191, 0.75);
+}
+
+.fontType {
+  font-family: "Nunito", sans-serif;
+  color: black;
+}
+
+.submitBorder {
+  border-radius: 4px;
+}
+
+.sidebar{
+  li{
+    font-size: unset;
+    padding:0;
+  }
+  ul{
+    padding:0;
+      a{
+        margin:0;
+        padding:0;
+        p{
+          padding:0;
+        }
+      }
+  }
+}

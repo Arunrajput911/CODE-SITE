@@ -1,0 +1,176 @@
+.resume-container {
+  background-color: white;
+  width: 210mm;
+  min-height: 297mm;
+  padding: 1rem 2rem;
+  border: 1px solid grey;
+  font-family: "Nunito", sans-serif;
+  @media (max-width: 700px) {
+    transform: scale(0.5);
+    margin-top: -16rem;
+  }
+  .full-width {
+    width: 100%;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    h1 {
+      margin: 0;
+    }
+    p {
+      margin: 0;
+      font-size: 0.9rem;
+    }
+    .email {
+      color: rgb(25, 0, 252);
+    }
+  }
+  .heading-container {
+    background-color: #cfcfcfe5;
+    margin: 0.8rem 0 0.5rem;
+    h2 {
+      font-size: 1.2rem;
+      padding: 0.5rem 0;
+      margin-left: 0.5rem;
+      font-weight: 700;
+      margin-bottom: 0;
+      color: black;
+    }
+  }
+  hr {
+    margin: 0;
+  }
+  .academic-details {
+    table,
+    th,
+    td {
+      border: 1px solid rgb(110, 110, 110);
+    }
+    td,
+    th {
+      padding: 0.5rem 0.2rem;
+      text-align: center;
+    }
+    tr .year {
+      width: 55px;
+    }
+  }
+  .projects {
+    tr {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    td {
+      padding: 0 0.5rem;
+      min-width: 33.333%;
+      max-width: 50%;
+      ul {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0.3rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0;
+        padding-right: 0;
+        li {
+          background: url("https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg")
+            no-repeat left 5px;
+          padding-left: 1em;
+          background-size: 0.4rem;
+          background-position: 0 8px;
+          border-bottom: none;
+          list-style: none;
+          &:nth-child(2) {
+            background-position: 0 5px;
+          }
+        }
+      }
+      .name {
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin: 0.2rem 0;
+      }
+      .type {
+        span {
+          font-size: 0.2rem;
+          font-weight: 500;
+          letter-spacing: 0.04rem;
+          margin: 0.2rem 0;
+        }
+      }
+      .technologies {
+        margin: 0.2rem 0;
+        font-size: 0.8rem;
+        div {
+          position: relative;
+          left: 0.23rem;
+        }
+        span {
+          line-height: 1rem;
+          letter-spacing: 0.03rem;
+        }
+        span:nth-child(1) {
+          font-weight: 700;
+        }
+      }
+      .credentials {
+        margin: 0.1rem 0;
+        margin-top: -0.1rem;
+        a {
+          color: rgb(25, 0, 252);
+          font-size: 0.9rem;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .technical-skills {
+    li {
+      border-bottom: none;
+      list-style: disc;
+      display: list-item;
+      font-size: unset;
+    }
+    table {
+      ul {
+        list-style-type: disc;
+        margin-left: 1.5rem;
+        margin-bottom: 0.5rem;
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        span {
+          width: unset;
+          font-size: unset;
+        }
+        .header {
+          font-weight: 700;
+          display: inline-block;
+          box-shadow: none;
+          margin-bottom: 0;
+          background: transparent;
+          height: unset;
+          margin-bottom: 0;
+        }
+        .name {
+          font-weight: 300;
+          margin-left: 0.2rem;
+        }
+      }
+    }
+  }
+  .achievements {
+    li {
+      border-bottom: none;
+      list-style: disc;
+      display: list-item;
+      font-size: unset;
+    }
+    ul {
+      list-style-type: disc;
+      margin-left: 1.5rem;
+    }
+  }
+}

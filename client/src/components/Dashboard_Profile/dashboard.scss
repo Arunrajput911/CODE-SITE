@@ -1,0 +1,123 @@
+input {
+  margin: 0;
+}
+
+.modal .close {
+  width: unset;
+  padding: 1rem 1rem;
+  margin: -1rem -1rem -1rem auto;
+  height: unset;
+  box-shadow: none;
+  border: none;
+  border-radius: 0;
+  transition: none;
+  cursor: pointer;
+  position:relative;
+  top:.3rem;
+  span{
+    color: #000;
+    font-size: inherit;
+    margin:unset;
+    width:unset;
+    padding:unset;
+  }
+}
+.phone-button {
+  background: transparent !important;
+  color: #66615b;
+  border: 1px solid #66615b;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  &:hover,
+  &:active,
+  &:focus,
+  &:active:focus {
+    background: #faa104 !important;
+    border-color: #faa104 !important;
+    color: white !important;
+  }
+}
+.dashboard-main-wrapper {
+  form {
+    max-width: unset;
+    text-align: unset;
+    padding: 0;
+  }
+  span {
+    margin: 0;
+    padding: 0;
+  }
+  .profile-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+  }
+}
+.dashboard-main-panel {
+  .MuiTypography-root {
+    padding: 0;
+  }
+  .card {
+    cursor: auto;
+    width: unset;
+    transition: unset;
+    font-weight: unset;
+  }
+  .content {
+    @media (max-width: 450px) {
+      padding-left: 8px;
+      padding-right: 8px;
+      .row {
+        .col {
+          padding-left: 0;
+          padding-right: 0;
+          .card-body {
+            padding-left: 10px;
+            padding-right: 10px;
+            .MuiAccordionDetails-root {
+              padding-left: 4px;
+              padding-right: 4px;
+              .MuiTypography-root {
+                width: 100%;
+                .row {
+                  margin-left: 0;
+                  & > div {
+                    padding-right: 0;
+                    padding-left: 0;
+                  }
+                }
+              }
+            }
+            .MuiAccordionSummary-root {
+              padding: 0px 4px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .suggestion-container {
+    width: 100%;
+    ul {
+      list-style-type: none;
+      li {
+        color: grey;
+        border: 2px solid rgb(200, 200, 200);
+        border-bottom: none;
+        &:last-child {
+          border-bottom: 2px solid rgb(200, 200, 200);
+        }
+        padding: 0.3rem 0.5rem;
+      }
+    }
+  }
+}
+.footer-dashboard{
+  background: none;
+}
+.footer-dashboard .copyright {
+  background: none !important;
+  padding: 0 !important;
+  color: unset;
+}
